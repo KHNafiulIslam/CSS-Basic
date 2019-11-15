@@ -1,0 +1,44 @@
+*{
+    background: coral;
+}
+.headline{
+    margin: 0;
+    padding: 0;
+ text-align: center;
+    color: yellow;
+    font-family: fantasy;
+    font-size: 40px
+}
+.listclass{
+    font-family: fantasy;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+.flag{
+    margin-left: 25%;
+    position: relative;
+    height: 300px;
+    width: 500px;
+    background: black
+}
+.flag:after{
+    position: absolute;
+    content: "";
+    width: 500px;
+    height: 100px;
+    background: red;
+    bottom: 33%;
+}
+.flag:before{
+    position: absolute;
+    content: "";
+    width: 500px;
+    height: 100px;
+    background: yellow;
+    bottom: 0%;
+}
+.click{
+    margin: 0;
+    padding: 0;
+}
